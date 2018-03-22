@@ -50,7 +50,7 @@ const closure = () => (
 const purifyMe = () => (
   // currently, this function is the same as the
   // closure above; rewrite it as a pure function
-  (x, y, z) => x + y + z
+  (x, y, z) => (x + y + z
 )(1, 2, 3) // <-- apply arguments to your pure function
 
 
